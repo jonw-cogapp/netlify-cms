@@ -13,7 +13,7 @@ module.exports = (config) => {
     dir: {
       output: "_site",
       input: "content",
-      includes: "templates",
+      includes: "_templates",
     }
   }
 }
