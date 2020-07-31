@@ -1,0 +1,26 @@
+{
+  "name": "netlify-cms",
+  "version": "1.0.0",
+  "description": "Tech Tuesday",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy  --serve",
+    "debug": "DEBUG=Eleventy* npx @11ty/eleventy",    
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonw-cogapp/netlify-cms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonw-cogapp/netlify-cms/issues"
+  },
+  "homepage": "https://github.com/jonw-cogapp/netlify-cms#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.0"
+  }
+}
