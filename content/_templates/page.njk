@@ -4,11 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title }}</title>
+  <link rel="stylesheet" href="/assets/css/main.css" />
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-  {{ description }}
-  
+  <div class="container">
+    <h1>{{ title }}</h1>
+    {{ description }}
+    <img class="image" src="{{ thumbnail }}" />
+  </div>
   <script>
     if (window.netlifyIdentity) {
       window.netlifyIdentity.on("init", user => {
