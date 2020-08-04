@@ -15,3 +15,13 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "text"}
+
+collections:
+  - name: "homepage"
+    label: "Homepage"
+    folder: "/content"
+    create: false
+    slug: "index"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "text"}
