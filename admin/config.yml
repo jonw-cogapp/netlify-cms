@@ -15,8 +15,6 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "text"}
-
-collections:
   - name: "homepage"
     label: "Homepage"
     folder: "/content"
@@ -25,3 +23,4 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "text"}
+      - {label: "Location", name: "coords", widget: "map"}
