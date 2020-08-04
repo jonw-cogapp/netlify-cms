@@ -14,7 +14,9 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Description", name: "description", widget: "markdown"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image", default: "/images/uploads/default.jpg", media_library: {config: {multiple: true}}}
+
   - name: "homepage"
     label: "Homepage"
     folder: "/content/homepage"
